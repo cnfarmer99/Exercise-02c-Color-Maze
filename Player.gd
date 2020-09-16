@@ -3,7 +3,7 @@ extends KinematicBody2D
 
 export (int) var speed = 100
 var velocity = Vector2()
-var rot_amount = 2.5
+var rot_amount = 10
 var ready_to_shoot = true
 onready var Ball = load("res://Ball/Ball.tscn")
 
